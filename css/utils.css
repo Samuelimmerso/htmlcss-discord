@@ -24,12 +24,22 @@ h2{
 	margin-bottom: 1em;
 }
 
+h3{
+	font-size: 32px;
+	font-weight: bolder;
+}
+
 p{
 	font-size: 20px;
 }
 
 .darkbtn{
 	background-color: #23272A;
+	color: #F7F8FD;
+}
+
+.bluebtn{
+	background-color: #234AB0;
 	color: #F7F8FD;
 }
 

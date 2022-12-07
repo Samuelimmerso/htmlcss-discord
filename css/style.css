@@ -117,12 +117,27 @@ main>section>.last-container {
 .last-container .hero-text{
 	width: 90%;
 	align-self: center;
+	justify-content: center;
 }
 
 
 .hilighted-content {
+	display: flex;
 	flex-grow: 1;
-	/* background-image: url(../img/stars.svg); */
+	justify-content: center;
+}
+
+.hilighted-content h3{
+	background-image: url(../img/stars.svg); 
+	background-position-y: bottom;
+}
+
+section.bg-gray>.cta-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
 }
 
 /* FOOTER */
