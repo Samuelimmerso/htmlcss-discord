@@ -85,7 +85,6 @@ main>section {
 main>section>.container {
 	display: flex;
 	justify-content: space-around;
-	/* debug */
 	min-height: 500px;
 }
 
@@ -109,9 +108,19 @@ main>section>.container {
 	margin-top: 1.5em;
 }
 
+main>section>.last-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.last-container .hero-text{
+	width: 90%;
+	align-self: center;
+}
+
 
 .hilighted-content {
-	display: flex;
 	flex-grow: 1;
 	/* background-image: url(../img/stars.svg); */
 }
