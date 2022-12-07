@@ -21,7 +21,7 @@
 }
 
 .header-links {
-	display: inline-flex;
+	display: flex;
 	flex-grow: 1;
 	text-align: center;
 	justify-content: center;
@@ -52,7 +52,7 @@
 .jumbotron .content {
 	display: flex;
 	/*debug*/
-	min-height: 47vh;
+	height: 58vh;
 	color: #F7F8FD;
 	text-align: center;
 	justify-content: center;
@@ -64,7 +64,7 @@
 
 .jumbotron .cta-container{
 	display: flex;
-	margin-top: 2em;
+	margin-top: 4em;
 	min-height: max-content;
 	justify-content: center;
 	gap: 2%;
